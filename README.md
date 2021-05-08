@@ -1,4 +1,4 @@
-# LYhigh_school
+# LYhighSchool
 My projects works in high school.
 
 Some works has been lost. Only these VB works are left.
