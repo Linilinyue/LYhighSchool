@@ -29,10 +29,10 @@ The proudest work:
   There is always a way without obstacles.
 
 The most useful work: 
-* **project 6 LYpressButtonPractice**  
+* **project 6 LYpressButtonPractice (name 9)**  
   Just press the button which is always in motion!  
   Double click the number to start. The caption will record your scores.  
   It will help you do better performance in FPS games.  
   
-* **project 1 LYrandomNumber**  
+* **project 1 LYrandomNumber (name 1)**  
   Generate random numbers.  
