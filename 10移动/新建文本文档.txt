@@ -1,0 +1,20 @@
+当时想做个坦克大战，结果做成了手速器。。
+Private Sub command1_keydown(keycode As Integer, shift As Integer)
+    If keycode = vbKeyW And Shape1.Top >= 0 Then
+        Shape1.Top = Shape1.Top - 100
+    End If
+    
+    If keycode = vbKeyS And Shape1.Top <= Form1.Height - Shape1.Height * 2 - 100 Then
+        Shape1.Top = Shape1.Top + 100
+    End If
+    
+    If keycode = vbKeyA And Shape1.Left >= 0 Then
+        Shape1.Left = Shape1.Left - 100
+    End If
+    
+    If keycode = vbKeyD And Shape1.Left <= Form1.Width - Shape1.Width - 200 Then
+        Shape1.Left = Shape1.Left + 100
+    End If
+        
+    
+End Sub

@@ -1,0 +1,42 @@
+
+'左方的移动
+    If keycode = vbKeyW And Shape4(0).Top >= 0 Then '上
+        Shape4(0).Top = Shape4(0).Top - 100
+        Label1(8).Top = Label1(8).Top - 100
+    End If
+    
+    If keycode = vbKeyS And Shape4(0).Top <= Form1.Height - Shape4(0).Height * 2 Then
+        Shape4(0).Top = Shape4(0).Top + 100
+        Label1(8).Top = Label1(8).Top + 100
+    End If
+    
+    If keycode = vbKeyA And Shape4(0).Left >= 0 Then
+        Shape4(0).Left = Shape4(0).Left - 100
+        Label1(8).Left = Label1(8).Left - 100
+    End If
+    
+    If keycode = vbKeyD And Shape4(0).Left <= 13200 - 700 Then
+        Shape4(0).Left = Shape4(0).Left + 100
+        Label1(8).Left = Label1(8).Left + 100
+    End If
+    
+'右方的移动
+    If keycode = 104 And Shape4(1).Top >= 0 Then
+        Shape4(1).Top = Shape4(1).Top - 100
+        Label1(9).Top = Label1(9).Top - 100
+    End If
+    
+    If keycode = 101 And Shape4(1).Top <= Form1.Height - Shape4(1).Height * 2 Then
+        Shape4(1).Top = Shape4(1).Top + 100
+        Label1(9).Top = Label1(9).Top + 100
+    End If
+    
+    If keycode = 100 And Shape4(1).Left >= 0 Then
+        Shape4(1).Left = Shape4(1).Left - 100
+        Label1(9).Left = Label1(9).Left - 100
+    End If
+    
+    If keycode = 102 And Shape4(1).Left <= 13200 - 700 Then
+        Shape4(1).Left = Shape4(1).Left + 100
+        Label1(9).Left = Label1(9).Left + 100
+    End If
