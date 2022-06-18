@@ -1,5 +1,5 @@
 # LYhighSchool
-My projects works in high school.
+My projects in high school.
 
 Some works has been lost. Only these VB works are left.
 
